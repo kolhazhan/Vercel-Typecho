@@ -6,8 +6,8 @@
  * @license    GNU General Public License 2.0
  * @version    $Id$
  */
- 
-/** 开启https */ 
+
+/** 开启https */
 define('__TYPECHO_SECURE__',true);
 
 /** 定义根目录 */
@@ -36,12 +36,12 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'sql.freedb.tech',
-  'user' => 'freedb_dtdjtg',
-  'password' => '4SP%m@JmESne5MQ',
+  'host' => 'arjuna.db.elephantsql.com',
+  'user' => 'awiwtckc',
+  'password' => 'j13PbhCkI_pwv_qUe7xo8XhD1KOjWI4N',
   'charset' => 'utf8mb4',
   'port' => '3306',
-  'database' => 'freedb_kolhazhan',
+  'database' => 'awiwtckc',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
